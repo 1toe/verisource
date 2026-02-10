@@ -1,7 +1,4 @@
-import React from 'react';
-import Download from 'lucide-react/dist/esm/icons/download';
-import FileText from 'lucide-react/dist/esm/icons/file-text';
-import Share2 from 'lucide-react/dist/esm/icons/share-2';
+import { Download, FileText, Share2 } from 'lucide-react';
 import { useLanguage } from '../i18n/LanguageContext';
 
 export const ExportTools = ({ favorites, searchHistory, isDarkMode }) => {
