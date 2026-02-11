@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { 
   Search, 
   ExternalLink, 
@@ -678,14 +678,12 @@ export default function App() {
       'profiles': 'bg-purple-500/20 text-purple-400 border border-purple-500/30',
       'analysis': 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30',
       'viewer': 'bg-pink-500/20 text-pink-400 border border-pink-500/30',
-      'anonymous': 'bg-green-500/20 text-green-400 border border-green-500/30',
       'tiktok': 'bg-black/30 text-white border border-slate-500/30',
       'videos': 'bg-red-500/20 text-red-400 border border-red-500/30',
       'search': 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30',
       'telegram': 'bg-sky-500/20 text-sky-400 border border-sky-500/30',
       'channels': 'bg-blue-500/20 text-blue-400 border border-blue-500/30',
       'facebook': 'bg-blue-600/20 text-blue-300 border border-blue-600/30',
-      'filters': 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30',
       // Person Search
       'email': 'bg-amber-500/20 text-amber-400 border border-amber-500/30',
       'validation': 'bg-green-500/20 text-green-400 border border-green-500/30',
